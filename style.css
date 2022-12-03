@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+nav{ 
+    display: flex; 
+    flex-direction:row; 
+    justify-content: space-around; 
+    font-family: 'Roboto';
+    color: #C6C6C6;
+    
+} 
+ul{ 
+    display: flex; 
+    gap: 5%; 
+    margin-right: 15%; 
+    margin-left: 5%;
+} 
+li{ 
+    list-style: none; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #959BA4;
+    align-items: center;
+    letter-spacing: 0.06em;
+} 
+.voyti{ 
+    margin-left: 16%; 
+    margin-right: 5%; 
+    height: 30px; 
+    margin-top: 0.5%; 
+    border: none; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+} 
+img{ 
+    margin-left: 5%; 
+    width: 120px;
+} 
+h1{ 
+    padding-top: 3%; 
+    margin-left: 15%; 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+} 
+.main{ 
+    display: flex; 
+    margin-left: 15%; 
+    gap: 10%; 
+} 
+.mainp{ 
+    color: #9F9F9F; 
+    padding-bottom: 0; 
+} 
+.sol , .sag{ 
+    width: 84px; 
+    height: 28px; 
+    border: 0.1px solid #9F9F9F; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 14px;     
+} 
+.sol:hover , .sag:hover{ 
+    background-color: #833AE0; 
+    color: #F5F5F6; 
+} 
+.leftside , .rightside{ 
+    display: flex; 
+    margin-top: 3%; 
+} 
+input{ 
+    width: 320px; 
+    height: 150px; 
+    margin-top: 7%; 
+    font-size: 40px; 
+    padding-left: 3%; 
+    outline: none;
+    border: none;
+} 
+.input{
+    width: 342px;
+    border: solid 1px #C6C6C6;
+    margin-top: 7%;
+}
+.active{ 
+    background-color: #833AE0; 
+    color: #F5F5F6; 
+}
+.solM,.sagM{
+    margin-left: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #C6C6C6;
+}
+
+
+@media screen and (max-width: 960px) {
+    ul{
+        display: none;
+    }
+    h1{
+        margin-left: 10%;
+    }
+    .main{
+        margin-left: 10%;
+        display: block;
+        
+    }
+    input{
+        height: 120px;
+        width: 90%;
+    }
+    .input{
+        width: 80%;
+    }
+    span{
+        width:100% !important;
+    }
+    .leftside{
+        width: 80%;
+        margin-right: 4%;
+    }
+    .rightside{
+        width: 80%;
+        margin-right: 4%;
+    }
+}

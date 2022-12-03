@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Currency Converter</title> 
+    <link rel="stylesheet" href="style.css">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    </html>
+</head> 
+<body> 
+    <nav> 
+        <img src="./bankA.svg" alt="logo"> 
+        <ul> 
+            <li> <b>  БАНК</b> </li> 
+            <li>БИЗНЕС</li> 
+            <li>ИНВЕСТИЦИИ</li> 
+            <li>СТРАХОВАНИЕ</li> 
+            <li>МОБАЙЛ</li> 
+            <li>ПУТЕШЕСТВИЯ</li> 
+            <li>РАЗВЛЕЧЕНИЯ</li> 
+        </ul> 
+        <button class="voyti">ВОЙТИ</button> 
+    </nav> 
+    <h1>Конвертер валют онлайн</h1> 
+    <div class="main"> 
+        <div class="left"> 
+        <p class="mainp">У меня есть</p> 
+        <div class="leftside"> 
+            <span  class="sol" id="sol1">RUB</span> 
+            <span  class="sol" id="sol2">EUR</span> 
+            <span  class="sol" id="sol3">USD</span> 
+            <span class="sol" id="sol4">GBP</span> 
+        </div> 
+        <div class="input">
+        <input type="text" id="linput"> 
+        <p class="solM" id="sol"></p> 
+        </div>
+    </div> 
+    <div class="right"> 
+        <p class="mainp">Хочу приобрести</p> 
+        <div class="rightside"> 
+            <span class="sag" id="sag1">RUB</span> 
+            <span class="sag" id="sag2">EUR</span> 
+            <span class="sag" id="sag3">USD</span> 
+            <span class="sag" id="sag4">GBP</span> 
+        </div> 
+        <div class="input">
+        <input type="text" id="rinput"> 
+        <p class="sagM" id="sag"></p> 
+        </div>
+    </div> 
+    </div> 
+</body> 
+<script src="./script.js"></script> 
+</html>
